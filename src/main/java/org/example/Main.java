@@ -103,7 +103,7 @@ public class Main {
 
     //  method to remove an order
     public static void removeOrder(ArrayList<String> pizzas, ArrayList<Integer> quantities, int index) {
-        if (index > quantities.size()) {
+        if (index > (quantities.size() - 1)) {
             System.out.println("No such order.");
         }
         else {
